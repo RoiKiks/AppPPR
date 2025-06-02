@@ -1,0 +1,52 @@
+# Système
+.DS_Store
+Thumbs.db
+
+# Environnement local
+.env
+.env.*.local
+*.local
+*.log
+
+# Dépendances
+/vendor/
+node_modules/
+
+# Cache
+/storage/*.key
+/storage/framework/*
+!/storage/framework/.gitignore
+/storage/logs/*
+!/storage/logs/.gitignore
+
+# Compilés
+/public/hot
+/public/storage
+/public/mix-manifest.json
+/public/js/*.js
+/public/css/*.css
+/public/build/
+
+# IDEs & éditeurs
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Autres fichiers inutiles
+*.bak
+*.tmp
+*.swp
+
+# Tests et couverture
+.phpunit.result.cache
+coverage/
+
+# Cache de composer
+composer.lock
+composer.phar
+
+# Laravel spécifique (si applicable)
+Homestead.yaml
+Homestead.json
+/.vagrant/
